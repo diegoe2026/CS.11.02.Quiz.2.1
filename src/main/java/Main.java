@@ -4,19 +4,54 @@ public class Main {
 
         // call the first add method and store the result into a variable called resultOne.
 
+
+    }
+    public static int add(int numOne, int numTwo) {
+           // int numOne = 0;
+            //int numTwo = 0;
+            return numOne + numTwo;
+            //int resultOne = add(numOne, numTwo);
+            //System.out.println(String, "heres result one: " + resultOne,);
+            }
+
         // print resultOne.
 
         // call the greeting method and store the result into a variable called resultTwo.
 
+
+        public static String greeting(String name) {
+            return "Bonjour, " + name + "!";
+            //String resultTwo = greeting(name);
+            //System.out.println(String, resultTwo,);
+            }
         // print resultTwo.
 
         // call the second add method and store the result into a variable called resultThree.
 
-        // print resultThree.
 
-        // call the printCapitalised method.
+            public static int add(int numOne, int numTwo, int numThree, int numFour){
+            return numOne + numTwo + numThree + numFour;
+            /*int numOne = 5;
+            int numTwo = 10;
+            int numThree = 15;
+            int numFour = 20;*/
+            //return numOne + numTwo + numThree + numFour;
+            //resultThree = add(numOne, numTwo, numThree, numFour);
+           // System.out.println("heres ur result" + resultThree);
+        }
 
-    }
+            // print resultThree.
+            // call the printCapitalised method.
+
+            public static void printCapitalised(String toBePrinted) {
+            String capitalisedString = toBePrinted.toUpperCase();
+            System.out.println(capitalisedString);
+
+        }
+
+}
+
+
 
     /**
      * add
@@ -51,4 +86,4 @@ public class Main {
 
 
 
-}
+
